@@ -1,0 +1,562 @@
+body{
+    font-size: 16px;
+    margin: 0;
+}
+.historique {
+    position: absolute;
+    left: 52px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+.time-machine-icon {
+    position: absolute;
+    top: 0.5px;
+    left: 12px;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+.historique-parent {
+    position: absolute;
+    top: -0.5px;
+    left: -1px;
+    width: 273px;
+    height: 24px;
+    overflow: hidden;
+}
+.close-icon {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.close-wrapper {
+    position: relative;
+    border-radius: 100px;
+    background-color: #2a2a2a;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+}
+.historique-wrapper {
+    border-radius: 100px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 16px;
+    color: #000;
+}
+.collaboratif {
+    position: relative;
+    letter-spacing: 0.03em;
+}
+.collaboratif-wrapper {
+    border-radius: 100px;
+    background-color: #2a2a2a;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 16px;
+}
+.frame-group {
+    position: absolute;
+    top: 52.5px;
+    left: 0px;
+    width: 272px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 14px;
+}
+.image-1p{
+    position: absolute;
+    width: 271px;
+    height: 102px;
+    object-fit: cover;
+}
+.image-1 {
+    position: relative;
+    width: 271px;
+    height: 102px;
+}
+.Favoris-icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.favoris {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.7;
+}
+
+.histogramme-petite-boite {
+    position: relative;
+    letter-spacing: 0.04em;
+    display: inline-block;
+    width: 272px;
+}
+.histogramme {
+    position: relative;
+    letter-spacing: 0.04em;
+}
+.histogramme-wrapper {
+    border-radius: 100px;
+    background-color: #2a2a2a;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 8px;
+}
+.frame-container {
+    width: 272px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 4px;
+    font-size: 10px;
+}
+.content-histo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.image-2p{
+    position: absolute;
+    width: 271px;
+    height: 141px;
+    object-fit: cover;
+}
+.image-2{
+    position: relative;
+    width: 271px;
+    height: 141px;
+}
+.heart1 {
+    position: absolute;
+    right: 10.5px;
+    bottom: 10.17px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.7;
+}
+
+.image-3p{
+    position: absolute;
+    width: 271px;
+    height: 218px;
+    object-fit: cover;
+}
+.image-3{
+    position: relative;
+    width: 271px;
+    height: 218px;
+}
+.image-4p{
+    position: absolute;
+    width: 271px;
+    height: 181px;
+    object-fit: cover;
+}
+.image-4{
+    position: relative;
+    width: 271px;
+    height: 181px;
+}
+.image-5p{
+    position: absolute;
+    width: 271px;
+    height: 106px;
+    object-fit: cover;
+}
+.image-5{
+    position: relative;
+    width: 271px;
+    height: 106px;
+}
+.content-histo-parent {
+    position: absolute;
+    top: 154.5px;
+    left: 0.5px;
+    border-radius: 16px;
+    width: 272px;
+    height: 679px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+    font-size: 12px;
+}
+.frame-parent {
+    flex: 100%;
+    position: relative;
+    width: 271px;
+    overflow: hidden;
+}
+.histo {
+    position: absolute;
+    top: 210px;
+    left: 20px;
+    border-radius: 16px;
+    background-color: #111112;
+    width: 316px;
+    height: 875px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.home-icon {
+    position: relative;
+    width: 29px;
+    height: 32px;
+    object-fit: cover;
+}
+.accueil {
+    position: relative;
+    font-weight: 500;
+    text-decoration: none;
+}
+.accueil a{
+    position: relative;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+.home-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.search-icon {
+    position: relative;
+    width: 29px;
+    height: 27.96px;
+    object-fit: cover;
+}
+.search-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    cursor: pointer;
+}
+.menu-nav {
+    position: absolute;
+    top: 32px;
+    left: 20px;
+    border-radius: 16px;
+    background-color: #111112;
+    width: 316px;
+    height: 162px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 28px 32px;
+    box-sizing: border-box;
+    font-size: 28px;
+}
+.add-document-icon {
+    position: absolute;
+    top: 1px;
+    width: 44px;
+    height: 74px;
+    object-fit: cover;
+}
+.entrez-votre-requete {
+    position: absolute;
+    top: 25px;
+    left: 74px;
+}
+.add-document-parent {
+    position: relative;
+    width: 255px;
+    height: 74px;
+}
+.sent {
+    position: relative;
+    width: 38px;
+    height: 37px;
+}
+.barre-message {
+    position: absolute;
+    top: 1013px;
+    left: 361px;
+    border-radius: 16px;
+    background-color: #121212;
+    width: 959px;
+    height: 72px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 24px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.bonjour-comment-puis-je {
+    position: absolute;
+    top: 115px;
+    left: 47px;
+    font-size: 49px;
+    display: inline-block;
+    width: 863px;
+}
+
+.image-4-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 277px;
+    height: 205px;
+    overflow: hidden;
+}
+.question-trous {
+    position: absolute;
+    top: calc(50% - 171.5px);
+    left: calc(50% - 101.5px);
+    font-weight: 500;
+}
+.commencer-button {
+    position: absolute;
+    top: 311px;
+    left: calc(50% - 107.5px);
+    border-radius: 8px;
+    background-color: #0227b7;
+    width: 215px;
+    height: 48px;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 18px;
+}
+.commencer {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 60.5px);
+    letter-spacing: 0.13em;
+    font-weight: 500;
+}
+
+.pour-toutes-les {
+    position: absolute;
+    top: 19.69%;
+    left: calc(50% - 122.5px);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    display: inline-block;
+    width: 245px;
+}
+.question-trous-parent {
+    position: absolute;
+    top: 177px;
+    left: 0px;
+    border-radius: 16px 16px 0px 0px;
+    background-color: #2a2a2a;
+    width: 277px;
+    height: 391px;
+    overflow: hidden;
+}
+.frame-parent4 {
+    position: absolute;
+    top: 291px;
+    left: 47px;
+    border-radius: 20px;
+    background-color: #2a2a2a;
+    width: 277px;
+    height: 568px;
+    overflow: hidden;
+    font-size: 28px;
+}
+.image-5-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 277px;
+    height: 277px;
+    object-fit: cover;
+}
+.question-rponse {
+    position: absolute;
+    top: calc(50% - 167.5px);
+    left: calc(50% - 95.5px);
+    font-weight: 500;
+}
+.pour-toutes-les1 {
+    position: absolute;
+    top: calc(50% - 118.5px);
+    left: calc(50% - 122.5px);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    display: inline-block;
+    width: 245px;
+}
+.question-rponse-parent {
+    position: absolute;
+    top: 177px;
+    left: 0px;
+    border-radius: 16px 16px 0px 0px;
+    background-color: #2a2a2a;
+    width: 277px;
+    height: 391px;
+    overflow: hidden;
+}
+.frame-parent5 {
+    position: absolute;
+    top: 291px;
+    left: 340px;
+    border-radius: 20px;
+    background-color: #2a2a2a;
+    width: 277px;
+    height: 568px;
+    overflow: hidden;
+}
+.image-6-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 284px;
+    height: 284px;
+    object-fit: cover;
+}
+.drag-and-drop {
+    position: absolute;
+    top: calc(50% - 167.5px);
+    left: calc(50% - 77.5px);
+    font-weight: 500;
+}
+.pour-toutes-les2 {
+    position: absolute;
+    top: calc(50% - 118.5px);
+    left: calc(50% - 120.5px);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    display: inline-block;
+    width: 245px;
+}
+.drag-and-drop-parent {
+    position: absolute;
+    top: 177px;
+    left: 0px;
+    border-radius: 16px 16px 0px 0px;
+    background-color: #2a2a2a;
+
+    width: 277px;
+    height: 391px;
+    overflow: hidden;
+}
+.frame-parent6 {
+    position: absolute;
+    top: 291px;
+    left: 633px;
+    border-radius: 20px;
+    background-color: #2a2a2a;
+    width: 277px;
+    height: 568px;
+    overflow: hidden;
+}
+.bonjour-comment-puis-je-vous-parent {
+    position: absolute;
+    top: 32px;
+    left: 361px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #474b4b, #121212 81.67%);
+    width: 959px;
+    height: 956px;
+    overflow: hidden;
+    font-size: 24px;
+}
+.onglet-communaute-child {
+    position: absolute;
+    top: 317px;
+    left: calc(50% - 671.5px);
+    width: 1174px;
+}
+.communaute {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    font-weight: 500;
+}
+.entrez-une-requte {
+    position: absolute;
+    top: 110px;
+    left: calc(50% - 145.5px);
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    width: 291px;
+}
+.people-icon {
+    position: absolute;
+    top: 8px;
+    left: 7px;
+    width: 39px;
+    height: 39px;
+    object-fit: cover;
+}
+.people-wrapper {
+    position: absolute;
+    top: 25px;
+    left: 275px;
+    border-radius: 216px;
+    background-color: #000;
+    width: 52px;
+    height: 52px;
+    overflow: hidden;
+}
+.onglet-communaute {
+    position: absolute;
+    top: 32px;
+    left: 1345px;
+    border-radius: 16px;
+    background-color: #111112;
+    width: 363px;
+    height: 1053px;
+    overflow: hidden;
+    font-size: 32px;
+}
+.page-daccueilmodif {
+    position: relative;
+    background-color: #020202;
+    width: 100%;
+    height: 1117px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Uber Move';
+}

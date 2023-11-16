@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  
+  
+  :root {
+    --uber-subtitle-1: "Uber Move";
+    --font-inherit: inherit;
+  
+    --uber-subtitle-1-size: 16px;
+    --uber-h6-size: 18px;
+    --uber-subtitle-2-size: 14px;
+    --uber-h5-size: 28px;
+    --font-size-xl: 20px;
+    --uber-h4-size: 34px;
+    --font-size-3xs: 10px;
+    --uber-caption-size: 12px;
+  
+    --gris-500-default: #2a2a2a;
+    --gris-700: #111112;
+    --gris-300: #575757;
+    --blanc: #fff;
+    --nwaar: #000;
+    --bleu-500-default: #0227b7;
+    --gris-100: #b5b5b5;
+    --bulle-texte: rgba(198, 197, 197, 0.15);
+    --bleu-300: #5364e7;
+  
+    --gap-5xs: 8px;
+    --gap-lgi: 19px;
+    --gap-sm: 14px;
+    --gap-13xl: 32px;
+    --gap-base: 16px;
+    --gap-9xs: 4px;
+  
+    --padding-4xs: 9px;
+    --padding-lgi: 19px;
+    --padding-7xs: 6px;
+    --padding-xs: 12px;
+    --padding-2xs: 11px;
+    --padding-base: 16px;
+    --padding-5xl: 24px;
+    --padding-13xl: 32px;
+    --padding-5xs: 8px;
+    --padding-9xl: 28px;
+    --padding-10xs: 3px;
+    --padding-21xl: 40px;
+    --padding-8xl: 27px;
+  
+    --br-5xs: 8px;
+    --br-8xs: 5px;
+    --br-base: 16px;
+    --br-86xl: 105px;
+    --br-81xl: 100px;
+  }
